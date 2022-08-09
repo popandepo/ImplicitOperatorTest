@@ -29,6 +29,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Users\\MariusRogneMadsen\\Desktop\\Nupkgs": {},
         "http://api.nuget.org/v3/index.json": {},
         "https://nuget.pkg.github.com/pcssno/index.json": {}
       },

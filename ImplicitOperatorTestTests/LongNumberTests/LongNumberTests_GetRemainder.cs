@@ -5,7 +5,7 @@ namespace ImplicitOperatorTestTests.LongNumberTests;
 public class LongNumberTests_GetRemainder
 {
 	[Test]
-	public void Test_GetRemainder_1()
+	public void GetRemainder_1()
 	{
 		LongNumber num = 1;
 
@@ -15,7 +15,7 @@ public class LongNumberTests_GetRemainder
 	}
 	
 	[Test]
-	public void Test_GetRemainder_2()
+	public void GetRemainder_2()
 	{
 		LongNumber num = 1;
 		
@@ -25,7 +25,7 @@ public class LongNumberTests_GetRemainder
 	}
 	
 	[Test]
-	public void Test_GetRemainder_3()
+	public void GetRemainder_3()
 	{
 		LongNumber num = 1;
 		

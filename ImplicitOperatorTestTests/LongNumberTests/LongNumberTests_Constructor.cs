@@ -2,66 +2,66 @@ using ImplicitOperatorTest;
 
 namespace ImplicitOperatorTestTests.LongNumberTests;
 
-public class LongNumberTests_Constructor
+public class LongNumbers_Constructor
 {
 	[Test]
-	public void LongNumber_ConstructorTestInt1()
+	public void ConstructorInt1()
 	{
 		LongNumber number = 1;
 		Assert.That(number.Value, Is.EqualTo("1"));
 	}
 	
 	[Test]
-	public void LongNumber_ConstructorTestInt2()
+	public void ConstructorInt2()
 	{
 		LongNumber number = -1;
 		Assert.That(number.Value, Is.EqualTo("-1"));
 	}
 	
 	[Test]
-	public void LongNumber_ConstructorTestInt3()
+	public void ConstructorInt3()
 	{
 		LongNumber number = 0;
 		Assert.That(number.Value, Is.EqualTo("0"));
 	}
 	
 	[Test]
-	public void LongNumber_ConstructorTestInt4()
+	public void ConstructorInt4()
 	{
 		LongNumber number = 123456789;
 		Assert.That(number.Value, Is.EqualTo("123456789"));
 	}
 	
 	[Test]
-	public void LongNumber_ConstructorTestString1()
+	public void ConstructorString1()
 	{
 		LongNumber number = "1";
 		Assert.That(number.Value, Is.EqualTo("1"));
 	}
 	
 	[Test]
-	public void LongNumber_ConstructorTestString2()
+	public void ConstructorString2()
 	{
 		LongNumber number = "-1";
 		Assert.That(number.Value, Is.EqualTo("-1"));
 	}
 	
 	[Test]
-	public void LongNumber_ConstructorTestString3()
+	public void ConstructorString3()
 	{
 		LongNumber number = "0";
 		Assert.That(number.Value, Is.EqualTo("0"));
 	}
 	
 	[Test]
-	public void LongNumber_ConstructorTestString4()
+	public void ConstructorString4()
 	{
 		LongNumber number = "123456789";
 		Assert.That(number.Value, Is.EqualTo("123456789"));
 	}
 	
 	[Test]
-	public void LongNumber_ConstructorTestString5()
+	public void ConstructorString5()
 	{
 		LongNumber number = "1234567890123456789";
 		Assert.That(number.Value, Is.EqualTo("1234567890123456789"));

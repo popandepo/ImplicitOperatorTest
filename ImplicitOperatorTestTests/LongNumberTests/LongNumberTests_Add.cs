@@ -5,7 +5,7 @@ namespace ImplicitOperatorTestTests.LongNumberTests;
 public class LongNumberTests_Add
 {
 	[Test]
-	public void LongNumber_AddTestInt1()
+	public void AddInt1()
 	{
 		LongNumber number1 = 1;
 		LongNumber number2 = 1;
@@ -14,7 +14,7 @@ public class LongNumberTests_Add
 	}
 	
 	[Test]
-	public void LongNumber_AddTestInt2()
+	public void AddInt2()
 	{
 		LongNumber number1 = 1;
 		LongNumber number2 = 2;
@@ -23,7 +23,7 @@ public class LongNumberTests_Add
 	}
 	
 	[Test]
-	public void LongNumber_AddTestInt3()
+	public void AddInt3()
 	{
 		LongNumber number1 = 9;
 		LongNumber number2 = 1;
@@ -32,7 +32,7 @@ public class LongNumberTests_Add
 	}
 	
 	[Test]
-	public void LongNumber_AddTestInt4()
+	public void AddInt4()
 	{
 		LongNumber number1 = 9;
 		LongNumber number2 = 9;
@@ -41,7 +41,7 @@ public class LongNumberTests_Add
 	}
 	
 	[Test]
-	public void LongNumber_AddTestInt5()
+	public void AddInt5()
 	{
 		LongNumber number1 = 99;
 		LongNumber number2 = 10;
@@ -50,7 +50,7 @@ public class LongNumberTests_Add
 	}
 
 	[Test]
-	public void LongNumber_AddTestString1()
+	public void AddString1()
 	{
 		LongNumber number1 = "1";
 		LongNumber number2 = "1";
@@ -59,7 +59,7 @@ public class LongNumberTests_Add
 	}
 	
 	[Test]
-	public void LongNumber_AddTestString2()
+	public void AddString2()
 	{
 		LongNumber number1 = "1";
 		LongNumber number2 = "2";
@@ -68,7 +68,7 @@ public class LongNumberTests_Add
 	}
 	
 	[Test]
-	public void LongNumber_AddTestString3()
+	public void AddString3()
 	{
 		LongNumber number1 = "9";
 		LongNumber number2 = "1";
@@ -77,7 +77,7 @@ public class LongNumberTests_Add
 	}
 	
 	[Test]
-	public void LongNumber_AddTestString4()
+	public void AddString4()
 	{
 		LongNumber number1 = "9";
 		LongNumber number2 = "9";
@@ -86,7 +86,7 @@ public class LongNumberTests_Add
 	}
 	
 	[Test]
-	public void LongNumber_AddTestString5()
+	public void AddString5()
 	{
 		LongNumber number1 = "99";
 		LongNumber number2 = "10";
@@ -95,7 +95,7 @@ public class LongNumberTests_Add
 	}
 	
 	[Test]
-	public void LongNumber_AddTestString6()
+	public void AddString6()
 	{
 		LongNumber number1 = "99";
 		LongNumber number2 = "99";
@@ -104,7 +104,7 @@ public class LongNumberTests_Add
 	}
 	
 	[Test]
-	public void LongNumber_AddTestString7()
+	public void AddString7()
 	{
 		LongNumber number1 = "999999999999999999999999999999999999999999";
 		LongNumber number2 = "1";

@@ -1,4 +1,6 @@
-﻿namespace ImplicitOperatorTest;
+﻿using System.Numerics;
+
+namespace ImplicitOperatorTest;
 
 public class LongNumber
 {
@@ -25,13 +27,9 @@ public class LongNumber
 		return result;
 	}
 
-	public (string top, string bottom) Pad(string top, string bottom)
+	public (string Top, string Bottom) Pad(string top, string bottom)
 	{
-		if (top.Length < bottom.Length)
-			top = top.PadLeft(bottom.Length, '0');
-		else if (bottom.Length < top.Length) bottom = bottom.PadLeft(top.Length, '0');
-
-		return (top, bottom);
+		return (top.PadLeft(bottom.Length), bottom.PadLeft(top.Length));
 	}
 
 	public LongNumber Add(LongNumber ln)
@@ -42,8 +40,8 @@ public class LongNumber
 		var result = "";
 
 		var padded = Pad(top, bottom);
-		top = padded.top;
-		bottom = padded.bottom;
+		top = padded.Top;
+		bottom = padded.Bottom;
 
 		for (int i = Math.Max(top.Length - 1, bottom.Length - 1); i >= 0; i--)
 		{
@@ -88,8 +86,8 @@ public class LongNumber
 		var result = "";
 
 		var padded = Pad(top, bottom);
-		top = padded.top;
-		bottom = padded.bottom;
+		top = padded.Top;
+		bottom = padded.Bottom;
 
 		for (int i = Math.Max(top.Length - 1, bottom.Length - 1); i >= 0; i--)
 		{
